@@ -59,4 +59,48 @@ section.background {
     height: 100vh;
     background: url("../background.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Content Section */
+
+section.content {
+    width: 70%;
+    margin: 0px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.content p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Scroll to top Icon*/
+
+.Scroll-To-Top {
+    height: 80px;
+    width: 80px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+
+/* Nav Black Property */
+
+nav.black {
+    background: rgba(0,0,0,0.8);
+    height: 100px;
+    padding: 10px 100px;
+}
+
+nav.black .logo {
+    color: #FFF;
+}
+
+nav.black ul li a {
+    color: #FFF;
 }
